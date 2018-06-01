@@ -18,7 +18,7 @@ else
 $username= ($_POST['john']?? 'john');
 $password= ($_POST['1234']?? '1234');
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
-$connection = mysqli_connect("localhost", "root", "joker1997");
+$connection = mysqli_connect("localhost", "root", "*********");
 // To protect MySQL injection for Security purpose
 $username = stripslashes($username);
 $password = stripslashes($password);

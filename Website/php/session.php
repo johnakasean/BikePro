@@ -6,7 +6,7 @@ login:https://www.formget.com/login-form-in-php/
 -->
 <?php
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
-$connection = mysqli_connect("localhost", "root", "joker1997");
+$connection = mysqli_connect("localhost", "root", "*********");
 // Selecting Database
 $db = mysqli_select_db($connection, "company" );
 session_start();// Starting Session
